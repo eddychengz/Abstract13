@@ -5,8 +5,8 @@ public class Account {
     public Account(){}
     private long id;
     private String accountType;
-    private Decimal balance;
-    private date createDate;
+//    private Decimal balance;
+//    private date createDate;
     private long employeeId;
 
     public void setId (long id){
