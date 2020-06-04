@@ -17,7 +17,7 @@ Refer to postgres docker [image](https://hub.docker.com/_/postgres) for environm
 docker run --name training-db -e POSTGRES_USER=${username} -e POSTGRES_PASSWORD=${password} -e POSTGRES_DB=${databaseName} -p 5433:5432 -d postgres
 ```
 ### Migrate Database Schema
-Refer to flyway setup [documentation](https://flywaydb.org/documentation/migrations) find all [migration schema] (src/main/resources/db/migrate)
+Refer to flyway setup [documentation](https://flywaydb.org/documentation/migrations) find all [migration schema](src/main/resources/db/migration)
 ```
 mvn clean compile flyway:migrate
 ```
